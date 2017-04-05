@@ -18,7 +18,7 @@ public class GameScreen implements Screen {
     public void show() {
         batch=new SpriteBatch();
         carTexture=new Texture(Gdx.files.internal("tackaa.png"));
-        car = new Car(carTexture, 50,0,150,100);
+        car = new Car(carTexture, 56,0,150,100);
 
     }
 
